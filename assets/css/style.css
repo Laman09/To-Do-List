@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    text-align: center;
+    border: 1px solid cadetblue;
+    border-top: none;
+    border-radius: 20px;
+    width: 600px;
+    height: 520px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: whitesmoke;
+}
+#wrapper .heading{
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: cadetblue;
+    color: white;
+}
+#wrapper .inputBar{
+    margin-top: 40px;
+}
+#wrapper .inputBar input{
+    padding: 12px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    outline: none;
+    box-shadow: 4px 5px 4px cadetblue;
+}
+#wrapper .inputBar button{
+    padding: 8px;
+    border: none;
+    width: 80px;
+    height: 35px;
+    border-radius: 13px;
+    margin-left: 20px;
+    color: white;
+    background-color: cadetblue;
+}
+#wrapper .taskBar{
+    margin-top: 70px;
+    font-family: sans-serif;
+    color: cadetblue;
+}
+#wrapper .taskBar ul{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 30px;
+}
+/* ul li.checked{
+    text-decoration: line-through;
+} */
+/* ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: cadetblue;
+    border-radius: 50%;
+}
+ul li span:hover{
+    background-color: grey;
+} */
+.completed {
+    text-decoration: line-through;
+    text-decoration-color: rgb(131, 42, 42);
+    color: #888888;
+}
+.delete{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 20px;
+    color: cadetblue;
+    border-radius: 50%;
+    border: 1px solid cadetblue;
+}
+.delete:hover{
+    background-color: red;
+    color: white;
+    border-color: white;
+}
+/* .close {
+    position: relative;
+    right: 0;
+    top: 0;
+    padding: 12px 16px;
+} */
